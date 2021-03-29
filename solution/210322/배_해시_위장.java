@@ -6,7 +6,7 @@ class Solution {
 	public static void  main(String[]args) {
     	String[][] clothes = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
     	
-    	
+    	//옷, 옷 종류 해쉬 맵 구성
     	for(int i=0; i< clothes.length ; i++) {
 			ArrayList<String> list = new ArrayList<String>();
 			String key = clothes[i][1];
@@ -25,6 +25,7 @@ class Solution {
     	
         int answer = 1;
     	
+	//종류 별 옷 갯수로 정답 구하기 
     	Iterator<String> keys = hashmap.keySet().iterator();
         while( keys.hasNext() ){
             String key = keys.next();
