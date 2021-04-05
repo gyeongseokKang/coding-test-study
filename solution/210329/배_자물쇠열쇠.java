@@ -9,7 +9,7 @@ class Solution {
     public static void lockIndexing(int[][] lock, int keyLen){ 
        for(int i= 0; i< lock.length; i++) {
           for(int j=0; j< lock[i].length; j++) {
-             int[] index = {j+1+keyLen-1, keyLen-i+keyLen-1};
+             int[] index = {j+1+keyLen-1, lock.length-i+keyLen-1};
              if(lock[i][j] == 1)
                 lockIndexing1.add(index);
              else
@@ -93,20 +93,8 @@ class Solution {
         return false;
     }
     
-    public static boolean is_not_lock(int[][] lock) {
-    	for(int[] i : lock) {
-    		for(int j: i) {
-    			if(j ==0)
-    				return false;
-    		}
-    	}
-    	return true;
-    }
     
     public static boolean solution(int[][] key, int[][] lock) {
-    	if(is_not_lock(lock))
-    		return true;
-        
         lockIndexing(lock, key.length);
         indexing(key);
         
