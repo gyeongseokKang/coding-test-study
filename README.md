@@ -2,7 +2,7 @@
 #Bae #Yu # Kang for 이직
 
 ## 21-04-05
-Lv2 수식 최대화: https://programmers.co.kr/learn/courses/30/lessons/67257
+Lv2 수식 최대화: https://programmers.co.kr/learn/courses/30/lessons/67257  
 Lv3 N으로 표현 : https://programmers.co.kr/learn/courses/30/lessons/42895  
 
 ## 21-03-29
