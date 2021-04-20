@@ -2,8 +2,8 @@
 #Bae #Yu # Kang for 이직
 
 ## 21-04-14
-Lv3 정수 삼각형: https://programmers.co.kr/learn/courses/30/lessons/43105
-Lv3 등교길 : https://programmers.co.kr/learn/courses/30/lessons/42898
+Lv3 정수 삼각형: https://programmers.co.kr/learn/courses/30/lessons/43105  
+Lv3 등교길 : https://programmers.co.kr/learn/courses/30/lessons/42898  
 
 ## 21-04-05
 Lv2 수식 최대화: https://programmers.co.kr/learn/courses/30/lessons/67257  
