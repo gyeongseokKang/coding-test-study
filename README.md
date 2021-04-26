@@ -1,6 +1,10 @@
 # coding-test-study
 #Bae #Yu # Kang for 이직
 
+## 21-04-21
+Lv2 튜플: https://programmers.co.kr/learn/courses/30/lessons/64065  
+Lv3 단속카메라 : https://programmers.co.kr/learn/courses/30/lessons/42884  
+
 ## 21-04-14
 Lv3 정수 삼각형: https://programmers.co.kr/learn/courses/30/lessons/43105  
 Lv3 등교길 : https://programmers.co.kr/learn/courses/30/lessons/42898  
