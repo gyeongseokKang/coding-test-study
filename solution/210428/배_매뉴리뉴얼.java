@@ -39,12 +39,12 @@ class Solution {
 		
 		if(!map.isEmpty()) {
 			int maxValueInMap=(Collections.max(map.values())); 
-			if(maxValueInMap>=2) {
-		        for (Entry<String, Integer> entry : map.entrySet()) {  
-		            if (entry.getValue()==maxValueInMap) {
-		            	ansList.add(entry.getKey());    
-		            }
-		        }
+				if(maxValueInMap>=2) {
+				for (Entry<String, Integer> entry : map.entrySet()) {  
+				    if (entry.getValue()==maxValueInMap) {
+					ansList.add(entry.getKey());    
+				    }
+				}
 			}
 		}
 	}
@@ -60,16 +60,16 @@ class Solution {
 	
 	
 	public static String[] solution(String[] orders, int[] course) {
-        orderArr(orders);
-        for(int cour: course) {
-            makeAns(cour);
-        }
-        
-        Collections.sort(ansList);
-        
-        String [] answer = ansList.toArray(new String[ansList.size()]);
-        
-        return answer;
-    }
+		orderArr(orders);
+		for(int cour: course) {
+		    makeAns(cour);
+		}
+
+		Collections.sort(ansList);
+
+		String [] answer = ansList.toArray(new String[ansList.size()]);
+
+		return answer;
+	}
     
 }    
